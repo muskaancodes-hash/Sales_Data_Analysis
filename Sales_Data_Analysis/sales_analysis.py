@@ -28,3 +28,27 @@ plt.xlabel("Index")
 plt.ylabel("Sales")
 plt.tight_layout()
 plt.show()
+# Part 5: Sales Summary
+
+print("\nSales Summary:")
+
+print("Total Sales:", df.select_dtypes(include="number").sum().sum())
+
+print("\nAverage Values:")
+print(df.select_dtypes(include="number").mean())
+print("Total Sales:", df.select_dtypes(include="number").sum().sum())
+# Part 6: Product-wise Sales Analysis
+
+print("\nProduct-wise Sales:")
+
+sales_by_product = df.groupby("Product")["Sales"].sum()
+
+print(sales_by_product)
+
+sales_by_product.plot(kind="bar")
+
+plt.title("Total Sales by Product")
+plt.xlabel("Product")
+plt.ylabel("Total Sales")
+plt.tight_layout()
+plt.show()
