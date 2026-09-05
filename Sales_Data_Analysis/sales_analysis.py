@@ -18,3 +18,13 @@ print("\nSummary Statistics:")
 print(df.describe())
 print("\nColumn Names:")
 print(df.columns)
+print("\nSales Visualization:")
+print("\nSales Visualization:")
+
+df.plot(kind="bar")
+
+plt.title("Sales Data Analysis")
+plt.xlabel("Index")
+plt.ylabel("Sales")
+plt.tight_layout()
+plt.show()
