@@ -27,3 +27,6 @@ Sales data is visualized using Matplotlib. Charts are used to compare sales perf
 ## Part 4: Sales Insights
 
 Sales results are analyzed to identify important patterns, trends, and better-performing products or categories.
+## Part 5: Sales Summary
+
+The total sales and average values are calculated using Pandas to understand the overall sales performance.
