@@ -33,3 +33,6 @@ The total sales and average values are calculated using Pandas to understand the
 ## Part 6: Product-wise Sales Analysis
 
 Product-wise total sales are calculated using groupby() and visualized with a bar chart to compare the performance of different products.
+## Part 7: Category-wise Sales Analysis
+
+Category-wise total sales are calculated using groupby() and visualized with a bar chart to compare sales performance across categories.
