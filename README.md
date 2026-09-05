@@ -30,3 +30,6 @@ Sales results are analyzed to identify important patterns, trends, and better-pe
 ## Part 5: Sales Summary
 
 The total sales and average values are calculated using Pandas to understand the overall sales performance.
+## Part 6: Product-wise Sales Analysis
+
+Product-wise total sales are calculated using groupby() and visualized with a bar chart to compare the performance of different products.
