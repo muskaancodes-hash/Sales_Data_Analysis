@@ -36,3 +36,6 @@ Product-wise total sales are calculated using groupby() and visualized with a ba
 ## Part 7: Category-wise Sales Analysis
 
 Category-wise total sales are calculated using groupby() and visualized with a bar chart to compare sales performance across categories.
+## Part 8: Sales Insights
+
+The best-selling product and category are identified using the calculated sales results. This helps understand the overall sales performance.
