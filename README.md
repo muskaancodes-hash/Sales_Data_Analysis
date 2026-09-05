@@ -24,3 +24,6 @@ Basic sales analysis is performed using Pandas. Summary statistics, total sales,
 ## Part 3: Sales Visualization
 
 Sales data is visualized using Matplotlib. Charts are used to compare sales performance and identify patterns in the data.
+## Part 4: Sales Insights
+
+Sales results are analyzed to identify important patterns, trends, and better-performing products or categories.
