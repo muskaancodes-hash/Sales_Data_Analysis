@@ -18,3 +18,7 @@ To analyze sales data, calculate total sales, and visualize the results using ch
 ## Dataset
 
 Sales data is stored in a CSV file and analyzed using Pandas.
+## Part 2: Basic Sales Analysis
+
+Basic sales analysis is performed using Pandas. Summary statistics, total sales, and product-wise sales are calculated using functions such as `describe()`, `sum()`, and `groupby()`.
+
