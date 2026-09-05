@@ -52,3 +52,18 @@ plt.xlabel("Product")
 plt.ylabel("Total Sales")
 plt.tight_layout()
 plt.show()
+# Part 7: Category-wise Sales Analysis
+
+print("\nCategory-wise Sales:")
+
+sales_by_category = df.groupby("Category")["Sales"].sum()
+
+print(sales_by_category)
+
+sales_by_category.plot(kind="bar")
+
+plt.title("Total Sales by Category")
+plt.xlabel("Category")
+plt.ylabel("Total Sales")
+plt.tight_layout()
+plt.show()
