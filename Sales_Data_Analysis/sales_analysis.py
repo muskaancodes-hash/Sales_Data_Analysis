@@ -67,3 +67,18 @@ plt.xlabel("Category")
 plt.ylabel("Total Sales")
 plt.tight_layout()
 plt.show()
+# Part 8: Sales Insights
+
+print("\nSales Insights:")
+
+best_product = sales_by_product.idxmax()
+best_product_sales = sales_by_product.max()
+
+best_category = sales_by_category.idxmax()
+best_category_sales = sales_by_category.max()
+
+print("Best Selling Product:", best_product)
+print("Best Product Sales:", best_product_sales)
+
+print("Best Selling Category:", best_category)
+print("Best Category Sales:", best_category_sales)
